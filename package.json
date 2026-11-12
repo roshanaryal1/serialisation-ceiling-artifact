@@ -1,0 +1,13 @@
+{
+  "name": "serialisation-ceiling",
+  "private": true,
+  "description": "Harness dependencies. research/harness/server.js serves the repo root, so bench_page.js loads /node_modules/@xenova/transformers from here.",
+  "scripts": {
+    "test:p7": "node --test research/harness/p7/"
+  },
+  "dependencies": {
+    "@xenova/transformers": "2.17.2",
+    "playwright": "1.64.1",
+    "playwright-core": "1.64.1"
+  }
+}

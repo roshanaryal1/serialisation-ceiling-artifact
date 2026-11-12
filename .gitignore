@@ -1,0 +1,24 @@
+node_modules/
+.DS_Store
+__pycache__/
+*.log
+
+# Research corpus artifacts: large, deterministically regenerable from
+# generate_corpus.py --seed 42. Hashes recorded in research/PROVENANCE.md.
+research/corpus/corpus_*.jsonl
+research/.venv/
+# Model mirror for the harness, same file as PROVENANCE.md's hashed model
+# artifact, copied for same-origin serving. Regenerable: see PHASE5_STATUS.md.
+research/harness/models/
+research/harness/smoke_test_output/
+# Regenerable numeric artifacts, reproducible from committed scripts with a
+# recorded seed and hashed in research/PROVENANCE.md.
+research/baseline/baseline_embeddings_*.npy
+research/corpus/vectors_*.json
+research/corpus/vectors_*.bin
+research/corpus/vectors_*.ids.json
+research/corpus/vectors_*.shard*/
+research/corpus/vectors_*.gz
+research/corpus/vectors_*.br
+# De-anonymised camera-ready (SSD_NAMED=1): kept out of git while the paper is under double-blind review.
+research/paper/conference/build/*_named.*
