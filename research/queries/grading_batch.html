@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Relevance grading (batch) — RentMate retrieval benchmark</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         max-width: 900px; margin: 0 auto; padding: 20px 20px 80px; line-height: 1.45; }
+  h1 { font-size: 1.05rem; margin: 0 0 2px; }
+  .sub { opacity: 0.7; font-size: 0.82rem; margin-bottom: 16px; }
+  .bar { height: 6px; background: rgba(128,128,128,0.25); border-radius: 3px; overflow: hidden; }
+  .bar > div { height: 100%; background: #3b82f6; width: 0%; transition: width .15s; }
+  .counter { font-size: 0.8rem; opacity: 0.75; margin: 5px 0 18px; }
+
+  .qcard { border: 1px solid rgba(128,128,128,0.35); border-radius: 10px;
+           padding: 14px 16px; margin-bottom: 14px; position: sticky; top: 0;
+           background: Canvas; z-index: 5; }
+  .label { font-size: 0.66rem; text-transform: uppercase; letter-spacing: .06em; opacity: .6; }
+  .query { font-size: 1.2rem; font-weight: 600; }
+  .qtype { display: inline-block; font-size: .68rem; padding: 2px 8px; border-radius: 10px;
+           background: rgba(59,130,246,.18); margin-left: 8px; vertical-align: middle; }
+  .rubric { font-size: .78rem; opacity: .85; margin-top: 8px; }
+  .rubric b { font-variant-numeric: tabular-nums; }
+
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 7px 6px; border-bottom: 1px solid rgba(128,128,128,0.18); vertical-align: middle; }
+  .cand { font-size: .95rem; }
+  .meta { font-size: .78rem; opacity: .7; }
+  .btns { white-space: nowrap; text-align: right; width: 430px; }
+  .btns button { padding: 9px 12px; margin-left: 6px; cursor: pointer;
+                 border: 1px solid rgba(128,128,128,.45); border-radius: 7px;
+                 background: transparent; color: inherit; font: inherit; font-size: .84rem; }
+  .btns button:hover { background: rgba(59,130,246,.15); }
+  .btns button.sel { background: #3b82f6; border-color: #3b82f6; color: #fff; font-weight: 600; }
+  tr.done .cand, tr.done .meta { opacity: .5; }
+
+  .nav { position: fixed; bottom: 0; left: 0; right: 0; padding: 10px 20px;
+         background: Canvas; border-top: 1px solid rgba(128,128,128,.3);
+         display: flex; gap: 10px; align-items: center; justify-content: center; }
+  .nav button { padding: 9px 18px; font: inherit; cursor: pointer; border-radius: 7px;
+                border: 1px solid rgba(128,128,128,.45); background: transparent; color: inherit; }
+  .nav button.primary { background: #3b82f6; border-color: #3b82f6; color: #fff; }
+  .navinfo { font-size: .8rem; opacity: .7; }
+  #done { display: none; }
+</style>
+</head>
+<body>
+
+<h1>Relevance grading (batch mode)</h1>
+<div class="sub"><b>Accuracy over speed on this pass.</b> For each listing ask plainly: would
+someone searching this be pleased to see this result? Clearly yes &rarr; 2. Right sort of thing
+but misses something (wrong spec, wrong location, over budget) &rarr; 1. Wrong sort of thing &rarr; 0.</div>
+
+<div class="bar"><div id="progress"></div></div>
+<div class="counter" id="counter">loading…</div>
+
+<div id="main">
+  <div class="qcard">
+    <div class="label">Someone searched for</div>
+    <div class="query">“<span id="query"></span>”<span class="qtype" id="qtype"></span></div>
+    <div class="rubric" id="rubric"></div>
+    <div class="rubric" style="margin-top:6px;opacity:.95">
+      For each listing below: <b>would this person be pleased to see it?</b>
+    </div>
+  </div>
+  <table id="cands"></table>
+</div>
+
+<div id="done">
+  <div class="qcard"><b>All rows graded.</b> Hit Download, then send me the file.</div>
+</div>
+
+<div class="nav">
+  <button id="prev">← Prev query</button>
+  <span class="navinfo" id="navinfo"></span>
+  <button id="next" class="primary">Next query →</button>
+  <button id="download">Download results JSON</button>
+</div>
+
+<script src="./grading_batch.js"></script>
+</body>
+</html>

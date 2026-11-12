@@ -1,0 +1,1808 @@
+{
+  "generated": "2026-08-11T02:51:20.285Z",
+  "source_csv": "/research/queries/adjudication_sample.csv",
+  "n_graded": 300,
+  "n_total": 300,
+  "judgments": [
+    {
+      "query_id": "q-0102",
+      "doc_id": "synthetic-0005836",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0111",
+      "doc_id": "synthetic-0004987",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0199",
+      "doc_id": "synthetic-0003093",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0007415",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0004346",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0239",
+      "doc_id": "synthetic-0002653",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0135",
+      "doc_id": "synthetic-0009927",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0038",
+      "doc_id": "synthetic-0001860",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0239",
+      "doc_id": "synthetic-0009298",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0199",
+      "doc_id": "synthetic-0002194",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0003746",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0246",
+      "doc_id": "synthetic-0001933",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0094",
+      "doc_id": "synthetic-0009378",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0006432",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0094",
+      "doc_id": "synthetic-0004350",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0150",
+      "doc_id": "synthetic-0002286",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0094",
+      "doc_id": "synthetic-0000000",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0102",
+      "doc_id": "synthetic-0004401",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0239",
+      "doc_id": "synthetic-0002442",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0239",
+      "doc_id": "synthetic-0000001",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0038",
+      "doc_id": "synthetic-0007940",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0111",
+      "doc_id": "synthetic-0002890",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0000041",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0135",
+      "doc_id": "synthetic-0000553",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0038",
+      "doc_id": "synthetic-0000031",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0001742",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0135",
+      "doc_id": "synthetic-0006281",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0006689",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0150",
+      "doc_id": "synthetic-0009188",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0004288",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0199",
+      "doc_id": "synthetic-0004362",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0102",
+      "doc_id": "synthetic-0003077",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0008236",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0102",
+      "doc_id": "synthetic-0002010",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0150",
+      "doc_id": "synthetic-0007816",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0150",
+      "doc_id": "synthetic-0007004",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0239",
+      "doc_id": "synthetic-0000015",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0038",
+      "doc_id": "synthetic-0002334",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0002713",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0038",
+      "doc_id": "synthetic-0000008",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0111",
+      "doc_id": "synthetic-0000440",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0102",
+      "doc_id": "synthetic-0000111",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0119",
+      "doc_id": "synthetic-0000441",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0119",
+      "doc_id": "synthetic-0001079",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0000022",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0111",
+      "doc_id": "synthetic-0008511",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0094",
+      "doc_id": "synthetic-0000046",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0239",
+      "doc_id": "synthetic-0000020",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0094",
+      "doc_id": "synthetic-0000033",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0111",
+      "doc_id": "synthetic-0004591",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0038",
+      "doc_id": "synthetic-0000022",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0135",
+      "doc_id": "synthetic-0002395",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0038",
+      "doc_id": "synthetic-0005278",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0150",
+      "doc_id": "synthetic-0005200",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0150",
+      "doc_id": "synthetic-0003040",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0246",
+      "doc_id": "synthetic-0000507",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0000030",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0000014",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0102",
+      "doc_id": "synthetic-0001538",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0119",
+      "doc_id": "synthetic-0005646",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0000009",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0119",
+      "doc_id": "synthetic-0002188",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0111",
+      "doc_id": "synthetic-0002444",
+      "query_category": "attribute",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0007563",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0008683",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0000026",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0111",
+      "doc_id": "synthetic-0000249",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0199",
+      "doc_id": "synthetic-0002548",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0150",
+      "doc_id": "synthetic-0006113",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0239",
+      "doc_id": "synthetic-0000760",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0135",
+      "doc_id": "synthetic-0004811",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0206",
+      "doc_id": "synthetic-0004942",
+      "query_category": "attribute",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0102",
+      "doc_id": "synthetic-0007074",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0095",
+      "doc_id": "synthetic-0000027",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0199",
+      "doc_id": "synthetic-0007107",
+      "query_category": "attribute",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0009",
+      "doc_id": "synthetic-0000186",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0186",
+      "doc_id": "synthetic-0000031",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0009",
+      "doc_id": "synthetic-0008524",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0090",
+      "doc_id": "synthetic-0008149",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0106",
+      "doc_id": "synthetic-0002829",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0170",
+      "doc_id": "synthetic-0003623",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0074",
+      "doc_id": "synthetic-0005131",
+      "query_category": "exact",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0243",
+      "doc_id": "synthetic-0005084",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0106",
+      "doc_id": "synthetic-0000523",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0010",
+      "doc_id": "synthetic-0002497",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0186",
+      "doc_id": "synthetic-0000172",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0090",
+      "doc_id": "synthetic-0001182",
+      "query_category": "exact",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0203",
+      "doc_id": "synthetic-0004046",
+      "query_category": "exact",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0195",
+      "doc_id": "synthetic-0008117",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0210",
+      "doc_id": "synthetic-0007744",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0170",
+      "doc_id": "synthetic-0000933",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0010",
+      "doc_id": "synthetic-0009164",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0171",
+      "doc_id": "synthetic-0003861",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0186",
+      "doc_id": "synthetic-0009123",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0106",
+      "doc_id": "synthetic-0007371",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0203",
+      "doc_id": "synthetic-0004386",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0043",
+      "doc_id": "synthetic-0004752",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0203",
+      "doc_id": "synthetic-0005284",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0186",
+      "doc_id": "synthetic-0001535",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0203",
+      "doc_id": "synthetic-0009206",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0195",
+      "doc_id": "synthetic-0003067",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0171",
+      "doc_id": "synthetic-0002158",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0090",
+      "doc_id": "synthetic-0008164",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0074",
+      "doc_id": "synthetic-0006967",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0043",
+      "doc_id": "synthetic-0004886",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0171",
+      "doc_id": "synthetic-0005483",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0171",
+      "doc_id": "synthetic-0000433",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0170",
+      "doc_id": "synthetic-0006621",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0171",
+      "doc_id": "synthetic-0007118",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0074",
+      "doc_id": "synthetic-0004152",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0195",
+      "doc_id": "synthetic-0005287",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0170",
+      "doc_id": "synthetic-0000576",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0243",
+      "doc_id": "synthetic-0006610",
+      "query_category": "exact",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0210",
+      "doc_id": "synthetic-0001060",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0090",
+      "doc_id": "synthetic-0005735",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0195",
+      "doc_id": "synthetic-0008769",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0010",
+      "doc_id": "synthetic-0003704",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0170",
+      "doc_id": "synthetic-0006601",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0009",
+      "doc_id": "synthetic-0001807",
+      "query_category": "exact",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0106",
+      "doc_id": "synthetic-0002776",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0195",
+      "doc_id": "synthetic-0000688",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0203",
+      "doc_id": "synthetic-0002050",
+      "query_category": "exact",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0210",
+      "doc_id": "synthetic-0000236",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0043",
+      "doc_id": "synthetic-0008006",
+      "query_category": "exact",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0195",
+      "doc_id": "synthetic-0002534",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0074",
+      "doc_id": "synthetic-0007770",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0170",
+      "doc_id": "synthetic-0001995",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0009",
+      "doc_id": "synthetic-0007956",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0203",
+      "doc_id": "synthetic-0005658",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0186",
+      "doc_id": "synthetic-0004727",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0243",
+      "doc_id": "synthetic-0001083",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0043",
+      "doc_id": "synthetic-0004695",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0171",
+      "doc_id": "synthetic-0003762",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0203",
+      "doc_id": "synthetic-0006689",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0186",
+      "doc_id": "synthetic-0001084",
+      "query_category": "exact",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0009",
+      "doc_id": "synthetic-0003704",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0210",
+      "doc_id": "synthetic-0003787",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0210",
+      "doc_id": "synthetic-0007666",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0195",
+      "doc_id": "synthetic-0006993",
+      "query_category": "exact",
+      "hand_grade": 2
+    },
+    {
+      "query_id": "q-0074",
+      "doc_id": "synthetic-0001854",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0106",
+      "doc_id": "synthetic-0004157",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0043",
+      "doc_id": "synthetic-0005980",
+      "query_category": "exact",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0243",
+      "doc_id": "synthetic-0005775",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0010",
+      "doc_id": "synthetic-0000019",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0106",
+      "doc_id": "synthetic-0008864",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0243",
+      "doc_id": "synthetic-0008118",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0043",
+      "doc_id": "synthetic-0008779",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0210",
+      "doc_id": "synthetic-0002634",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0170",
+      "doc_id": "synthetic-0000982",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0009",
+      "doc_id": "synthetic-0006115",
+      "query_category": "exact",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0188",
+      "doc_id": "synthetic-0006683",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0020",
+      "doc_id": "synthetic-0005992",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0140",
+      "doc_id": "synthetic-0000159",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0002500",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0020",
+      "doc_id": "synthetic-0002859",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0229",
+      "doc_id": "synthetic-0002176",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0125",
+      "doc_id": "synthetic-0001884",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0140",
+      "doc_id": "synthetic-0000941",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0007108",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0004495",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0069",
+      "doc_id": "synthetic-0004081",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0009572",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0005997",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0006158",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0212",
+      "doc_id": "synthetic-0000318",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0229",
+      "doc_id": "synthetic-0009922",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0003111",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0001224",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0125",
+      "doc_id": "synthetic-0005408",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0000008",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0125",
+      "doc_id": "synthetic-0005675",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0188",
+      "doc_id": "synthetic-0008186",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0069",
+      "doc_id": "synthetic-0009774",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0140",
+      "doc_id": "synthetic-0004034",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0188",
+      "doc_id": "synthetic-0006262",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0008954",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0005273",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0004005",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0001031",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0000616",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0108",
+      "doc_id": "synthetic-0003612",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0133",
+      "doc_id": "synthetic-0001658",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0108",
+      "doc_id": "synthetic-0006224",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0001303",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0133",
+      "doc_id": "synthetic-0000305",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0108",
+      "doc_id": "synthetic-0006413",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0020",
+      "doc_id": "synthetic-0003830",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0069",
+      "doc_id": "synthetic-0009287",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0212",
+      "doc_id": "synthetic-0008978",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0005190",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0009389",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0002221",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0005499",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0188",
+      "doc_id": "synthetic-0009642",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0004418",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0007131",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0108",
+      "doc_id": "synthetic-0009389",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0188",
+      "doc_id": "synthetic-0000825",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0069",
+      "doc_id": "synthetic-0001226",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0108",
+      "doc_id": "synthetic-0005955",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0140",
+      "doc_id": "synthetic-0005632",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0004513",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0188",
+      "doc_id": "synthetic-0003624",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0008954",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0229",
+      "doc_id": "synthetic-0001490",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0108",
+      "doc_id": "synthetic-0000748",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0005529",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0069",
+      "doc_id": "synthetic-0001075",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0140",
+      "doc_id": "synthetic-0003243",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0108",
+      "doc_id": "synthetic-0008854",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0140",
+      "doc_id": "synthetic-0009225",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0069",
+      "doc_id": "synthetic-0001305",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0000923",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0212",
+      "doc_id": "synthetic-0003986",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0188",
+      "doc_id": "synthetic-0004678",
+      "query_category": "paraphrase",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0003991",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0125",
+      "doc_id": "synthetic-0005350",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0004586",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0229",
+      "doc_id": "synthetic-0003610",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0003143",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0000395",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0228",
+      "doc_id": "synthetic-0002251",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0085",
+      "doc_id": "synthetic-0008948",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0084",
+      "doc_id": "synthetic-0006842",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0069",
+      "doc_id": "synthetic-0004402",
+      "query_category": "paraphrase",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0224",
+      "doc_id": "synthetic-0007659",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0007455",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0224",
+      "doc_id": "synthetic-0008278",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0241",
+      "doc_id": "synthetic-0005885",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0006374",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0005592",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0005185",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0001130",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0241",
+      "doc_id": "synthetic-0009962",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0224",
+      "doc_id": "synthetic-0006038",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0006444",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0032",
+      "doc_id": "synthetic-0001833",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0192",
+      "doc_id": "synthetic-0007826",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0008106",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0005722",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0004086",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0003229",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0001461",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0032",
+      "doc_id": "synthetic-0005359",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0160",
+      "doc_id": "synthetic-0006290",
+      "query_category": "vague",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0192",
+      "doc_id": "synthetic-0001381",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0224",
+      "doc_id": "synthetic-0003003",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0001246",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0003034",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0002321",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0004456",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0006068",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0002363",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0005885",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0007943",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0032",
+      "doc_id": "synthetic-0007333",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0004470",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0160",
+      "doc_id": "synthetic-0003990",
+      "query_category": "vague",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0001264",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0072",
+      "doc_id": "synthetic-0004048",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0006260",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0000004",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0002715",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0006196",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0003508",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0005391",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0005895",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0072",
+      "doc_id": "synthetic-0003145",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0005041",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0001870",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0241",
+      "doc_id": "synthetic-0009239",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0241",
+      "doc_id": "synthetic-0001744",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0002144",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0007724",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0160",
+      "doc_id": "synthetic-0008311",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0072",
+      "doc_id": "synthetic-0002365",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0001381",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0000432",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0002261",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0224",
+      "doc_id": "synthetic-0008288",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0104",
+      "doc_id": "synthetic-0001943",
+      "query_category": "vague",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0241",
+      "doc_id": "synthetic-0006830",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0005231",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0192",
+      "doc_id": "synthetic-0005041",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0006830",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0241",
+      "doc_id": "synthetic-0003214",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0000186",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0001189",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0008028",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0000317",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0006721",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0193",
+      "doc_id": "synthetic-0006549",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0145",
+      "doc_id": "synthetic-0001382",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0177",
+      "doc_id": "synthetic-0005722",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0224",
+      "doc_id": "synthetic-0006153",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0160",
+      "doc_id": "synthetic-0006986",
+      "query_category": "vague",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0065",
+      "doc_id": "synthetic-0005823",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0160",
+      "doc_id": "synthetic-0008347",
+      "query_category": "vague",
+      "hand_grade": 1
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0005371",
+      "query_category": "vague",
+      "hand_grade": 0
+    },
+    {
+      "query_id": "q-0208",
+      "doc_id": "synthetic-0008666",
+      "query_category": "vague",
+      "hand_grade": 0
+    }
+  ]
+}

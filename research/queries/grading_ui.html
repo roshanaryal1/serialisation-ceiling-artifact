@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Relevance grading — RentMate retrieval benchmark</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 24px 20px 60px;
+    line-height: 1.5;
+  }
+  h1 { font-size: 1.1rem; margin: 0 0 4px; }
+  .sub { opacity: 0.7; font-size: 0.85rem; margin-bottom: 20px; }
+  .bar { height: 6px; background: rgba(128,128,128,0.25); border-radius: 3px; overflow: hidden; margin-bottom: 4px; }
+  .bar > div { height: 100%; background: #3b82f6; width: 0%; transition: width 0.15s; }
+  .counter { font-size: 0.8rem; opacity: 0.7; margin-bottom: 24px; }
+  .card { border: 1px solid rgba(128,128,128,0.35); border-radius: 10px; padding: 18px 20px; margin-bottom: 18px; }
+  .label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; opacity: 0.6; margin-bottom: 3px; }
+  .query { font-size: 1.25rem; font-weight: 600; margin-bottom: 14px; }
+  .qtype { display: inline-block; font-size: 0.7rem; padding: 2px 8px; border-radius: 10px;
+           background: rgba(59,130,246,0.18); margin-left: 8px; vertical-align: middle; font-weight: 500; }
+  .doc { font-size: 1.05rem; margin-bottom: 2px; }
+  .doccat { font-size: 0.85rem; opacity: 0.7; }
+  .btns { display: flex; gap: 10px; margin: 20px 0 6px; }
+  button.grade {
+    flex: 1; padding: 14px 8px; font-size: 0.95rem; cursor: pointer;
+    border: 1px solid rgba(128,128,128,0.4); border-radius: 8px;
+    background: transparent; color: inherit; font-family: inherit;
+  }
+  button.grade:hover { background: rgba(59,130,246,0.15); }
+  button.grade b { display: block; font-size: 1.3rem; margin-bottom: 2px; }
+  .hint { font-size: 0.8rem; opacity: 0.6; text-align: center; }
+  .rubric { font-size: 0.83rem; opacity: 0.85; border-left: 3px solid rgba(128,128,128,0.35); padding-left: 12px; }
+  .rubric p { margin: 6px 0; }
+  .actions { display: flex; gap: 10px; margin-top: 24px; align-items: center; flex-wrap: wrap; }
+  .actions button { padding: 9px 16px; font-size: 0.9rem; cursor: pointer; border-radius: 7px;
+                     border: 1px solid rgba(128,128,128,0.4); background: transparent; color: inherit; font-family: inherit; }
+  #done { display: none; }
+  .warn { font-size: 0.8rem; opacity: 0.75; margin-top: 20px; }
+</style>
+</head>
+<body>
+
+<h1>Relevance grading</h1>
+<div class="sub">Hand adjudication for Cohen's kappa — RESEARCH_PLAN.md Phase 3</div>
+
+<div class="bar"><div id="progress"></div></div>
+<div class="counter" id="counter">loading…</div>
+
+<div id="grading">
+  <div class="card">
+    <div class="label">Query</div>
+    <div class="query"><span id="query"></span><span class="qtype" id="qtype"></span></div>
+    <div class="label">Candidate listing</div>
+    <div class="doc" id="doc"></div>
+    <div class="doccat" id="doccat"></div>
+  </div>
+
+  <div class="btns">
+    <button class="grade" data-g="0"><b>0</b>Not relevant</button>
+    <button class="grade" data-g="1"><b>1</b>Partially</button>
+    <button class="grade" data-g="2"><b>2</b>Highly</button>
+  </div>
+  <div class="hint">Press <b>0</b>, <b>1</b>, or <b>2</b> · <b>U</b> to undo last</div>
+
+  <div class="card rubric" id="rubric"></div>
+</div>
+
+<div id="done">
+  <div class="card">
+    <b>All rows graded.</b>
+    <p>Download the results and run:</p>
+    <p><code>python3 research/queries/compute_kappa.py --sample &lt;downloaded file&gt;</code></p>
+  </div>
+</div>
+
+<div class="actions">
+  <button id="download">Download results JSON</button>
+  <button id="undo">Undo last</button>
+  <button id="reset">Reset all progress</button>
+</div>
+
+<div class="warn">
+  <b>Take your time on this pass.</b> Roughly ten seconds a row. Read the query, read the listing,
+  ask yourself plainly: would someone searching this be pleased to see this result? There are only
+  60 rows and accuracy matters far more than speed here.
+  <br><br>
+  Progress saves automatically after every grade — close the tab and come back whenever.
+  The rubric's own grade stays hidden: seeing it would anchor your judgement and inflate the
+  agreement statistic this exercise exists to measure.
+</div>
+
+<script src="./grading_ui.js"></script>
+</body>
+</html>
