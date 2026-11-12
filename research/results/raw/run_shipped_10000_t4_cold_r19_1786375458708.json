@@ -1,0 +1,153 @@
+{
+  "timestamp": "2026-08-10T15:24:18.483Z",
+  "mode": "shipped",
+  "corpus_url": "/research/corpus/vectors_10000.json",
+  "corpus_size": 10000,
+  "threads_configured": 4,
+  "threads_actual_reported": 4,
+  "cache_state": "cold",
+  "storage_cleared": {
+    "caches": 0,
+    "indexedDB": 0
+  },
+  "timings_ms": {
+    "nav_to_pipeline_start": 9.5,
+    "model_load": 131079,
+    "index_build": 404565.39999985695,
+    "vectors_fetch": 404382.89999985695,
+    "vectors_parse": 123.5,
+    "cold_start_total": 535653.899999857
+  },
+  "query_results": [
+    {
+      "query": "Scissor Lift 26' Electric, 29.0 ft",
+      "embed_ms": 55.90000009536743,
+      "search_ms": 19.59999990463257,
+      "top1_id": "synthetic-0009262",
+      "top1_score": 0.8635473496304729
+    },
+    {
+      "query": "Scissor Lift 16.6 ft",
+      "embed_ms": 8.200000047683716,
+      "search_ms": 17.40000009536743,
+      "top1_id": "synthetic-0001009",
+      "top1_score": 0.8608051695998767
+    },
+    {
+      "query": "Cherry Picker 49.2 ft",
+      "embed_ms": 7.5,
+      "search_ms": 15.699999809265137,
+      "top1_id": "synthetic-0001695",
+      "top1_score": 0.7935850140438107
+    },
+    {
+      "query": "way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 9.600000143051147,
+      "search_ms": 6.3999998569488525,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5345833850374838
+    },
+    {
+      "query": "need way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 13.700000047683716,
+      "search_ms": 6.5,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5525079641734453
+    },
+    {
+      "query": "aerial equipment under $432 a day",
+      "embed_ms": 7.200000047683716,
+      "search_ms": 6.5,
+      "top1_id": "synthetic-0005503",
+      "top1_score": 0.3693053670699157
+    },
+    {
+      "query": "aerial equipment available in Panmure",
+      "embed_ms": 6.799999952316284,
+      "search_ms": 6.5,
+      "top1_id": "synthetic-0003241",
+      "top1_score": 0.3402747546756422
+    },
+    {
+      "query": "need to get up high for a bit",
+      "embed_ms": 7.1000001430511475,
+      "search_ms": 8,
+      "top1_id": "synthetic-0007170",
+      "top1_score": 0.2447113439942119
+    },
+    {
+      "query": "need to get up high for a bit, any ideas?",
+      "embed_ms": 9.399999856948853,
+      "search_ms": 6.400000095367432,
+      "top1_id": "synthetic-0003100",
+      "top1_score": 0.20629144682105352
+    },
+    {
+      "query": "Air Compressor Diesel, 111 CFM",
+      "embed_ms": 6.5,
+      "search_ms": 6.3999998569488525,
+      "top1_id": "synthetic-0005840",
+      "top1_score": 0.8163390790351535
+    }
+  ],
+  "peak_js_heap_bytes": 225000000,
+  "wasm_heap_bytes": null,
+  "model_transfer_bytes": 26044171,
+  "model_transfer_resource_count": 5,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36",
+  "hardware_concurrency": 8,
+  "cell": {
+    "corpus_size": 10000,
+    "threads": 4,
+    "cache_state": "cold",
+    "mode": "shipped"
+  },
+  "repeat_index": 19,
+  "is_warmup": false,
+  "commit_sha": "84fb7343165b64404d557350ad5f7a554d3ca72c",
+  "run_id": "2915c1ae-6a09-4d26-b0be-c9be3d0b4522",
+  "network_profile": {
+    "name": "Fast 3G (Chrome DevTools preset numbers)",
+    "downloadMbps": 1.6,
+    "uploadMbps": 0.75,
+    "latencyMs": 150
+  },
+  "system_state_before": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 110515814400,
+      "swapins_bytes": 2107781169152,
+      "swapouts_bytes": 2232052760576,
+      "pages_free_bytes": 59506688
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-10T15:15:13.241Z"
+  },
+  "system_state_after": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 110537359360,
+      "swapins_bytes": 2108197519360,
+      "swapouts_bytes": 2232371527680,
+      "pages_free_bytes": 64503808
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-10T15:24:18.546Z"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-08-12T15:00:24.975Z",
+  "mode": "shipped",
+  "corpus_url": "/research/corpus/vectors_10000.json",
+  "corpus_size": 10000,
+  "threads_configured": 4,
+  "threads_actual_reported": 4,
+  "cache_state": "warm",
+  "storage_cleared": null,
+  "timings_ms": {
+    "nav_to_pipeline_start": 0,
+    "model_load": 171.10000014305115,
+    "index_build": 272.5,
+    "vectors_fetch": 134.89999985694885,
+    "vectors_parse": 112.40000009536743,
+    "cold_start_total": 443.60000014305115
+  },
+  "query_results": [
+    {
+      "query": "Scissor Lift 26' Electric, 29.0 ft",
+      "embed_ms": 22.299999952316284,
+      "search_ms": 19.799999952316284,
+      "top1_id": "synthetic-0009262",
+      "top1_score": 0.8635473496304729
+    },
+    {
+      "query": "Scissor Lift 16.6 ft",
+      "embed_ms": 8,
+      "search_ms": 18,
+      "top1_id": "synthetic-0001009",
+      "top1_score": 0.8608051695998767
+    },
+    {
+      "query": "Cherry Picker 49.2 ft",
+      "embed_ms": 7.299999952316284,
+      "search_ms": 15.800000190734863,
+      "top1_id": "synthetic-0001695",
+      "top1_score": 0.7935850140438107
+    },
+    {
+      "query": "way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 9.699999809265137,
+      "search_ms": 6.400000095367432,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5345833850374838
+    },
+    {
+      "query": "need way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 10,
+      "search_ms": 6.299999952316284,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5525079641734453
+    },
+    {
+      "query": "aerial equipment under $432 a day",
+      "embed_ms": 7.200000047683716,
+      "search_ms": 8.5,
+      "top1_id": "synthetic-0005503",
+      "top1_score": 0.3693053670699157
+    },
+    {
+      "query": "aerial equipment available in Panmure",
+      "embed_ms": 6.700000047683716,
+      "search_ms": 6.5,
+      "top1_id": "synthetic-0003241",
+      "top1_score": 0.3402747546756422
+    },
+    {
+      "query": "need to get up high for a bit",
+      "embed_ms": 7,
+      "search_ms": 6.3999998569488525,
+      "top1_id": "synthetic-0007170",
+      "top1_score": 0.2447113439942119
+    },
+    {
+      "query": "need to get up high for a bit, any ideas?",
+      "embed_ms": 9.300000190734863,
+      "search_ms": 6.299999952316284,
+      "top1_id": "synthetic-0003100",
+      "top1_score": 0.20629144682105352
+    },
+    {
+      "query": "Air Compressor Diesel, 111 CFM",
+      "embed_ms": 6.700000047683716,
+      "search_ms": 6.099999904632568,
+      "top1_id": "synthetic-0005840",
+      "top1_score": 0.8163390790351535
+    }
+  ],
+  "peak_js_heap_bytes": 225000000,
+  "wasm_heap_bytes": null,
+  "model_transfer_bytes": 2359124,
+  "model_transfer_resource_count": 1,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36",
+  "hardware_concurrency": 8,
+  "cell": {
+    "corpus_size": 10000,
+    "threads": 4,
+    "cache_state": "warm",
+    "mode": "shipped"
+  },
+  "repeat_index": 10,
+  "is_warmup": false,
+  "commit_sha": "ad5694dd93550417afe9f8767ddfee0b2b527640",
+  "run_id": "0f39ecfa-5739-4d11-b045-d4232f554d13",
+  "browser": "chromium",
+  "cache_isolation": "warm (shared context, caches retained)",
+  "network_profile": null,
+  "system_state_before": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 127859703808,
+      "swapins_bytes": 2379303092224,
+      "swapouts_bytes": 2527429197824,
+      "pages_free_bytes": 139968512
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-12T15:00:24.262Z"
+  },
+  "system_state_after": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 127859720192,
+      "swapins_bytes": 2379303092224,
+      "swapouts_bytes": 2527429197824,
+      "pages_free_bytes": 84230144
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-12T15:00:25.009Z"
+  }
+}

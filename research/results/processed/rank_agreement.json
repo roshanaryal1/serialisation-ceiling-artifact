@@ -1,0 +1,55 @@
+{
+  "note": "Fidelity to the fp32 reference, not retrieval quality. Computed without relevance judgments, which is why these survive the RQ1 withdrawal (Section 5.1).",
+  "results": [
+    {
+      "label": "fp32 vs int8 batch-32 (as shipped: quantisation + padding)",
+      "n_queries": 250,
+      "overlap_at_10": [
+        0.7028,
+        0.6836,
+        0.7212000000000001
+      ],
+      "top1_agreement": [
+        0.456,
+        0.392,
+        0.516
+      ],
+      "spearman_at_10": [
+        0.5457668111660496,
+        0.5124795667209319,
+        0.5785280266444252
+      ],
+      "rbo_p090": [
+        0.6510723683916279,
+        0.6315844911631209,
+        0.6697654360905372
+      ],
+      "mean_fp32_top10_docs_missing_from_int8_top50": 0.072
+    },
+    {
+      "label": "fp32 vs int8 batch-1 (quantisation alone)",
+      "n_queries": 250,
+      "overlap_at_10": [
+        0.7011999999999999,
+        0.68,
+        0.7212000000000001
+      ],
+      "top1_agreement": [
+        0.456,
+        0.396,
+        0.52
+      ],
+      "spearman_at_10": [
+        0.5500872709814483,
+        0.515005024768475,
+        0.5834948997619879
+      ],
+      "rbo_p090": [
+        0.6513121070776826,
+        0.6319591462714921,
+        0.6706807304323148
+      ],
+      "mean_fp32_top10_docs_missing_from_int8_top50": 0.096
+    }
+  ]
+}

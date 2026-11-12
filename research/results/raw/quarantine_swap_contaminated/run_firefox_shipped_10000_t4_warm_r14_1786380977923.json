@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-08-10T16:56:17.771Z",
+  "mode": "shipped",
+  "corpus_url": "/research/corpus/vectors_10000.json",
+  "corpus_size": 10000,
+  "threads_configured": 4,
+  "threads_actual_reported": 4,
+  "cache_state": "warm",
+  "storage_cleared": null,
+  "timings_ms": {
+    "nav_to_pipeline_start": 0,
+    "model_load": 587,
+    "index_build": 657,
+    "vectors_fetch": 280,
+    "vectors_parse": 364,
+    "cold_start_total": 1244
+  },
+  "query_results": [
+    {
+      "query": "Scissor Lift 26' Electric, 29.0 ft",
+      "embed_ms": 104,
+      "search_ms": 8,
+      "top1_id": "synthetic-0009262",
+      "top1_score": 0.8635473496304729
+    },
+    {
+      "query": "Scissor Lift 16.6 ft",
+      "embed_ms": 79,
+      "search_ms": 7,
+      "top1_id": "synthetic-0001009",
+      "top1_score": 0.8608051695998767
+    },
+    {
+      "query": "Cherry Picker 49.2 ft",
+      "embed_ms": 67,
+      "search_ms": 5,
+      "top1_id": "synthetic-0001695",
+      "top1_score": 0.7935850140438107
+    },
+    {
+      "query": "way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 96,
+      "search_ms": 5,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5345833850374838
+    },
+    {
+      "query": "need way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 100,
+      "search_ms": 6,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5525079641734453
+    },
+    {
+      "query": "aerial equipment under $432 a day",
+      "embed_ms": 76,
+      "search_ms": 5,
+      "top1_id": "synthetic-0005503",
+      "top1_score": 0.3693053670699157
+    },
+    {
+      "query": "aerial equipment available in Panmure",
+      "embed_ms": 69,
+      "search_ms": 6,
+      "top1_id": "synthetic-0003241",
+      "top1_score": 0.3402747546756422
+    },
+    {
+      "query": "need to get up high for a bit",
+      "embed_ms": 74,
+      "search_ms": 5,
+      "top1_id": "synthetic-0007170",
+      "top1_score": 0.2447113439942119
+    },
+    {
+      "query": "need to get up high for a bit, any ideas?",
+      "embed_ms": 97,
+      "search_ms": 5,
+      "top1_id": "synthetic-0003100",
+      "top1_score": 0.20629144682105352
+    },
+    {
+      "query": "Air Compressor Diesel, 111 CFM",
+      "embed_ms": 68,
+      "search_ms": 6,
+      "top1_id": "synthetic-0005840",
+      "top1_score": 0.8163390790351535
+    }
+  ],
+  "peak_js_heap_bytes": null,
+  "wasm_heap_bytes": null,
+  "model_transfer_bytes": 2359124,
+  "model_transfer_resource_count": 1,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+  "hardware_concurrency": 8,
+  "cell": {
+    "corpus_size": 10000,
+    "threads": 4,
+    "cache_state": "warm",
+    "mode": "shipped"
+  },
+  "repeat_index": 14,
+  "is_warmup": false,
+  "commit_sha": "84fb7343165b64404d557350ad5f7a554d3ca72c",
+  "run_id": "3af56ff8-c9ce-4e28-983c-60bb11ba1acd",
+  "browser": "firefox",
+  "cache_isolation": "warm (shared context, caches retained)",
+  "network_profile": null,
+  "system_state_before": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 110791376896,
+      "swapins_bytes": 2116614438912,
+      "swapouts_bytes": 2241956855808,
+      "pages_free_bytes": 58441728
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-10T16:56:15.507Z"
+  },
+  "system_state_after": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 110791770112,
+      "swapins_bytes": 2116614766592,
+      "swapouts_bytes": 2242037792768,
+      "pages_free_bytes": 72466432
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-10T16:56:17.818Z"
+  }
+}

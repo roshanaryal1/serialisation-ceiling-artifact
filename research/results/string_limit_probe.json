@@ -1,0 +1,16 @@
+{
+  "generated": "2026-08-17T07:39:55.620Z",
+  "webkit": {
+    "max_length": 2147483647,
+    "first_failing": null,
+    "lower_bound_only": true
+  },
+  "chromium": {
+    "max_length": 536870888,
+    "first_failing": 536870889
+  },
+  "firefox": {
+    "max_length": 1073741822,
+    "first_failing": 1073741823
+  }
+}

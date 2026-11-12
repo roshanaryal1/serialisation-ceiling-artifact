@@ -1,0 +1,14 @@
+{
+  "vectors_url": "/research/corpus/vectors_10000.json",
+  "vectors_batch_size": 32,
+  "corpus_size": 10000,
+  "dims": 384,
+  "threads": 4,
+  "top_k": 50,
+  "query_count": 250,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36",
+  "elapsed_seconds": 4.362,
+  "browser": "chromium",
+  "commit_sha": "84fb7343165b64404d557350ad5f7a554d3ca72c",
+  "generated": "2026-08-10T15:26:51.856Z"
+}

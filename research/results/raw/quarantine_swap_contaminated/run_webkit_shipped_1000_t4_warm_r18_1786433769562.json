@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-08-11T07:36:09.381Z",
+  "mode": "shipped",
+  "corpus_url": "/research/corpus/vectors_1000.json",
+  "corpus_size": 1000,
+  "threads_configured": 4,
+  "threads_actual_reported": 4,
+  "cache_state": "warm",
+  "storage_cleared": null,
+  "timings_ms": {
+    "nav_to_pipeline_start": 0,
+    "model_load": 630.0000000000001,
+    "index_build": 62.999999999999886,
+    "vectors_fetch": 41.999999999999886,
+    "vectors_parse": 16,
+    "cold_start_total": 693
+  },
+  "query_results": [
+    {
+      "query": "Scissor Lift 26' Electric, 29.0 ft",
+      "embed_ms": 48,
+      "search_ms": 2,
+      "top1_id": "synthetic-0000813",
+      "top1_score": 0.8106595174408884
+    },
+    {
+      "query": "Scissor Lift 16.6 ft",
+      "embed_ms": 9,
+      "search_ms": 2,
+      "top1_id": "synthetic-0000491",
+      "top1_score": 0.8446115425796002
+    },
+    {
+      "query": "Cherry Picker 49.2 ft",
+      "embed_ms": 10.000000000000114,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000187",
+      "top1_score": 0.7423391743074048
+    },
+    {
+      "query": "way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 9.999999999999886,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000627",
+      "top1_score": 0.5092883839635337
+    },
+    {
+      "query": "need way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 13,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000627",
+      "top1_score": 0.5227253778042584
+    },
+    {
+      "query": "aerial equipment under $432 a day",
+      "embed_ms": 7,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000528",
+      "top1_score": 0.3447406723492657
+    },
+    {
+      "query": "aerial equipment available in Panmure",
+      "embed_ms": 7,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000115",
+      "top1_score": 0.31811210213267427
+    },
+    {
+      "query": "need to get up high for a bit",
+      "embed_ms": 7,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000655",
+      "top1_score": 0.22569807061708239
+    },
+    {
+      "query": "need to get up high for a bit, any ideas?",
+      "embed_ms": 10.000000000000114,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000918",
+      "top1_score": 0.19436291792430754
+    },
+    {
+      "query": "Air Compressor Diesel, 111 CFM",
+      "embed_ms": 8,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000020",
+      "top1_score": 0.6406710039856355
+    }
+  ],
+  "peak_js_heap_bytes": null,
+  "wasm_heap_bytes": null,
+  "model_transfer_bytes": 23685093,
+  "model_transfer_resource_count": 5,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+  "hardware_concurrency": 8,
+  "cell": {
+    "corpus_size": 1000,
+    "threads": 4,
+    "cache_state": "warm",
+    "mode": "shipped"
+  },
+  "repeat_index": 18,
+  "is_warmup": false,
+  "commit_sha": "25e785519ca0cb8c7d9fa65fb777638aaf7b7f73",
+  "run_id": "8b0c1252-70fe-4aa6-b9b4-8018723bc426",
+  "browser": "webkit",
+  "cache_isolation": "warm (shared context, caches retained)",
+  "network_profile": null,
+  "system_state_before": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 120706416640,
+      "swapins_bytes": 2239507513344,
+      "swapouts_bytes": 2374992969728,
+      "pages_free_bytes": 58540032
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-11T07:36:08.275Z"
+  },
+  "system_state_after": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 120706498560,
+      "swapins_bytes": 2239507513344,
+      "swapouts_bytes": 2375193509888,
+      "pages_free_bytes": 67502080
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-11T07:36:09.416Z"
+  }
+}

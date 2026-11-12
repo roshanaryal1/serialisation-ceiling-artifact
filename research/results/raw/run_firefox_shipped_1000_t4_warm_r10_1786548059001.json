@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-08-12T15:20:58.953Z",
+  "mode": "shipped",
+  "corpus_url": "/research/corpus/vectors_1000.json",
+  "corpus_size": 1000,
+  "threads_configured": 4,
+  "threads_actual_reported": 4,
+  "cache_state": "warm",
+  "storage_cleared": null,
+  "timings_ms": {
+    "nav_to_pipeline_start": 0,
+    "model_load": 575,
+    "index_build": 61,
+    "vectors_fetch": 25,
+    "vectors_parse": 34,
+    "cold_start_total": 636
+  },
+  "query_results": [
+    {
+      "query": "Scissor Lift 26' Electric, 29.0 ft",
+      "embed_ms": 104,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000813",
+      "top1_score": 0.8106595174408884
+    },
+    {
+      "query": "Scissor Lift 16.6 ft",
+      "embed_ms": 79,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000491",
+      "top1_score": 0.8446115425796002
+    },
+    {
+      "query": "Cherry Picker 49.2 ft",
+      "embed_ms": 71,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000187",
+      "top1_score": 0.7423391743074048
+    },
+    {
+      "query": "way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 95,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000627",
+      "top1_score": 0.5092883839635337
+    },
+    {
+      "query": "need way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 100,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000627",
+      "top1_score": 0.5227253778042584
+    },
+    {
+      "query": "aerial equipment under $432 a day",
+      "embed_ms": 76,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000528",
+      "top1_score": 0.3447406723492657
+    },
+    {
+      "query": "aerial equipment available in Panmure",
+      "embed_ms": 70,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000115",
+      "top1_score": 0.31811210213267427
+    },
+    {
+      "query": "need to get up high for a bit",
+      "embed_ms": 75,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000655",
+      "top1_score": 0.22569807061708239
+    },
+    {
+      "query": "need to get up high for a bit, any ideas?",
+      "embed_ms": 97,
+      "search_ms": 1,
+      "top1_id": "synthetic-0000918",
+      "top1_score": 0.19436291792430754
+    },
+    {
+      "query": "Air Compressor Diesel, 111 CFM",
+      "embed_ms": 69,
+      "search_ms": 0,
+      "top1_id": "synthetic-0000020",
+      "top1_score": 0.6406710039856355
+    }
+  ],
+  "peak_js_heap_bytes": null,
+  "wasm_heap_bytes": null,
+  "model_transfer_bytes": 2359124,
+  "model_transfer_resource_count": 1,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+  "hardware_concurrency": 8,
+  "cell": {
+    "corpus_size": 1000,
+    "threads": 4,
+    "cache_state": "warm",
+    "mode": "shipped"
+  },
+  "repeat_index": 10,
+  "is_warmup": false,
+  "commit_sha": "ad5694dd93550417afe9f8767ddfee0b2b527640",
+  "run_id": "b7b203ed-4706-4fbe-8376-19887a688cf8",
+  "browser": "firefox",
+  "cache_isolation": "warm (shared context, caches retained)",
+  "network_profile": null,
+  "system_state_before": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 127877808128,
+      "swapins_bytes": 2379488722944,
+      "swapouts_bytes": 2527676334080,
+      "pages_free_bytes": 145965056
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-12T15:20:57.402Z"
+  },
+  "system_state_after": {
+    "hostname": "Roshan-MacBook",
+    "platform": "darwin",
+    "release": "25.5.0",
+    "arch": "arm64",
+    "vm_stat": {
+      "pageouts_bytes": 127877988352,
+      "swapins_bytes": 2379488722944,
+      "swapouts_bytes": 2527676334080,
+      "pages_free_bytes": 64634880
+    },
+    "power": {
+      "battery_percent": 100,
+      "on_ac_power": true,
+      "low_power_mode": false
+    },
+    "powermetrics": null,
+    "sampled_at": "2026-08-12T15:20:58.985Z"
+  }
+}

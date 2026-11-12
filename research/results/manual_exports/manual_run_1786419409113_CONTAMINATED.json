@@ -1,0 +1,2282 @@
+[
+  {
+    "timestamp": "2026-08-11T02:42:32.520Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2412.0999999996275,
+      "index_build": 5239,
+      "vectors_fetch": 4598.4000000003725,
+      "vectors_parse": 525.0999999996275,
+      "cold_start_total": 7651.0999999996275
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 151,
+        "search_ms": 119.1000000005588,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 64,
+        "search_ms": 125.59999999962747,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 55,
+        "search_ms": 97.70000000018626,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 72.20000000018626,
+        "search_ms": 33.299999999813735,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 77.40000000037253,
+        "search_ms": 34.39999999944121,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 57.5,
+        "search_ms": 33.5,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.700000000186265,
+        "search_ms": 34.10000000055879,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 59.299999999813735,
+        "search_ms": 34.200000000186265,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 75.09999999962747,
+        "search_ms": 34.40000000037253,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.89999999944121,
+        "search_ms": 33.10000000055879,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 26044171,
+    "model_transfer_resource_count": 5,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 0,
+    "is_warmup": true,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:43:10.076Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0.09999999962747097,
+      "model_load": 1866.4000000003725,
+      "index_build": 4712.700000000186,
+      "vectors_fetch": 4074.9000000003725,
+      "vectors_parse": 525.0999999996275,
+      "cold_start_total": 6579.200000000186
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 77.5,
+        "search_ms": 38.09999999962747,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 58.89999999944121,
+        "search_ms": 36.40000000037253,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 53.5,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 71.40000000037253,
+        "search_ms": 33.700000000186265,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74.8999999994412,
+        "search_ms": 33.10000000055879,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 57.700000000186265,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.39999999944121,
+        "search_ms": 34.5,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 57,
+        "search_ms": 33,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.29999999981374,
+        "search_ms": 34.200000000186265,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.10000000055879,
+        "search_ms": 32.799999999813735,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 49729218,
+    "model_transfer_resource_count": 9,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 1,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:46:24.281Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 1888.7999999998137,
+      "index_build": 4930.4000000003725,
+      "vectors_fetch": 4231.0999999996275,
+      "vectors_parse": 586.8000000007451,
+      "cold_start_total": 6819.200000000186
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 120.29999999981374,
+        "search_ms": 38.5,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 58,
+        "search_ms": 36.5,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 53.09999999962747,
+        "search_ms": 33,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.79999999981374,
+        "search_ms": 34.10000000055879,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 75.79999999981374,
+        "search_ms": 33.200000000186265,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 57.700000000186265,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.700000000186265,
+        "search_ms": 34.200000000186265,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 57.39999999944121,
+        "search_ms": 32.80000000074506,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.8999999994412,
+        "search_ms": 34.5,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.299999999813735,
+        "search_ms": 33.700000000186265,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 73414265,
+    "model_transfer_resource_count": 13,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 2,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:47:02.193Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0.10000000055879354,
+      "model_load": 1932.7000000001863,
+      "index_build": 4980.299999999814,
+      "vectors_fetch": 4338.699999999255,
+      "vectors_parse": 526.9000000003725,
+      "cold_start_total": 6913.100000000559
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 77.20000000018626,
+        "search_ms": 37.89999999944121,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 58.200000000186265,
+        "search_ms": 36.90000000037253,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 53.39999999944121,
+        "search_ms": 33,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 72.6000000005588,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 79.3999999994412,
+        "search_ms": 35.40000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 59.39999999944121,
+        "search_ms": 34.40000000037253,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 54.799999999813735,
+        "search_ms": 34.40000000037253,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 58.40000000037253,
+        "search_ms": 34.700000000186265,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 78.79999999981374,
+        "search_ms": 34.89999999944121,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.60000000055879,
+        "search_ms": 33.299999999813735,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 97099312,
+    "model_transfer_resource_count": 17,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 3,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:47:40.496Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0.10000000055879354,
+      "model_load": 1855.7999999998137,
+      "index_build": 5454.700000000186,
+      "vectors_fetch": 4690.799999999814,
+      "vectors_parse": 589,
+      "cold_start_total": 7310.600000000559
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 97.79999999981374,
+        "search_ms": 36.299999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 57.799999999813735,
+        "search_ms": 33,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 55,
+        "search_ms": 32.799999999813735,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.70000000018626,
+        "search_ms": 33.799999999813735,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 75,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.799999999813735,
+        "search_ms": 34,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 53.10000000055879,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 57.40000000037253,
+        "search_ms": 33,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.90000000037253,
+        "search_ms": 34,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.59999999962747,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 120784359,
+    "model_transfer_resource_count": 21,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 4,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:52:01.394Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2348.2999999998137,
+      "index_build": 4999.299999999814,
+      "vectors_fetch": 4375,
+      "vectors_parse": 510.70000000018626,
+      "cold_start_total": 7347.5999999996275
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 77.40000000037253,
+        "search_ms": 38.299999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 56.89999999944121,
+        "search_ms": 37.200000000186265,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.40000000037253,
+        "search_ms": 33,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.5,
+        "search_ms": 33.09999999962747,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 73.90000000037253,
+        "search_ms": 34.299999999813735,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.40000000037253,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.19999999925494,
+        "search_ms": 34.200000000186265,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.69999999925494,
+        "search_ms": 33.10000000055879,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.29999999981374,
+        "search_ms": 34,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.299999999813735,
+        "search_ms": 34.40000000037253,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 144469406,
+    "model_transfer_resource_count": 25,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 5,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:52:39.308Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2066.5999999996275,
+      "index_build": 4885,
+      "vectors_fetch": 4197.299999999814,
+      "vectors_parse": 512.6000000005588,
+      "cold_start_total": 6951.5999999996275
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 75.3999999994412,
+        "search_ms": 33.799999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 58.5,
+        "search_ms": 33.09999999962747,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.700000000186265,
+        "search_ms": 35.799999999813735,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.20000000018626,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74,
+        "search_ms": 33.90000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.69999999925494,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.59999999962747,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.5,
+        "search_ms": 33,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.20000000018626,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 51.89999999944121,
+        "search_ms": 34.40000000037253,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 168154453,
+    "model_transfer_resource_count": 29,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 6,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:53:17.338Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2032.3999999994412,
+      "index_build": 5017,
+      "vectors_fetch": 4318.4000000003725,
+      "vectors_parse": 523.2000000001863,
+      "cold_start_total": 7049.399999999441
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 75.40000000037253,
+        "search_ms": 33.89999999944121,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 75.70000000018626,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.39999999944121,
+        "search_ms": 36,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.1000000005588,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 73.90000000037253,
+        "search_ms": 33.700000000186265,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.200000000186265,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.5,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.40000000037253,
+        "search_ms": 33.299999999813735,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.29999999981374,
+        "search_ms": 33,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.200000000186265,
+        "search_ms": 34.09999999962747,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 191839500,
+    "model_transfer_resource_count": 33,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 7,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:56:27.201Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2846.4000000003725,
+      "index_build": 5389,
+      "vectors_fetch": 4694.899999999441,
+      "vectors_parse": 518.5,
+      "cold_start_total": 8235.400000000373
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 96.59999999962747,
+        "search_ms": 36.299999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 58.299999999813735,
+        "search_ms": 33.200000000186265,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 55.299999999813735,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.40000000037253,
+        "search_ms": 34,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74.69999999925494,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.5,
+        "search_ms": 34,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.09999999962747,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.59999999962747,
+        "search_ms": 33.40000000037253,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.40000000037253,
+        "search_ms": 34.09999999962747,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.200000000186265,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 215524547,
+    "model_transfer_resource_count": 37,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 8,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T02:57:10.071Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 1890.5,
+      "index_build": 5087.5,
+      "vectors_fetch": 4455.5,
+      "vectors_parse": 518.2999999998137,
+      "cold_start_total": 6978
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 98.20000000018626,
+        "search_ms": 56.799999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 62.299999999813735,
+        "search_ms": 39.799999999813735,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 56.60000000055879,
+        "search_ms": 36.39999999944121,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 122.90000000037253,
+        "search_ms": 119.29999999981374,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 238.3999999994412,
+        "search_ms": 118.5,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 198.09999999962747,
+        "search_ms": 109.29999999981374,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 173.09999999962747,
+        "search_ms": 109.79999999981374,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 185.29999999981374,
+        "search_ms": 111.1000000005588,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 416.29999999981374,
+        "search_ms": 191.29999999981374,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 175.79999999981374,
+        "search_ms": 106.90000000037253,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 239209594,
+    "model_transfer_resource_count": 41,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 9,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:17:40.673Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 1892.8999999994412,
+      "index_build": 4927,
+      "vectors_fetch": 4212.9000000003725,
+      "vectors_parse": 539.5999999996275,
+      "cold_start_total": 6819.899999999441
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 100.8999999994412,
+        "search_ms": 36.5,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 57.10000000055879,
+        "search_ms": 34.09999999962747,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.60000000055879,
+        "search_ms": 36.299999999813735,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.79999999981374,
+        "search_ms": 33.40000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 76.59999999962747,
+        "search_ms": 34.09999999962747,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 57.60000000055879,
+        "search_ms": 35.09999999962747,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 53.40000000037253,
+        "search_ms": 33.89999999944121,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.60000000055879,
+        "search_ms": 34.700000000186265,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.5,
+        "search_ms": 33.39999999944121,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.299999999813735,
+        "search_ms": 35,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 262894641,
+    "model_transfer_resource_count": 45,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 10,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:18:18.463Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 1971.1000000005588,
+      "index_build": 4843.299999999814,
+      "vectors_fetch": 4213.5999999996275,
+      "vectors_parse": 519.7999999998137,
+      "cold_start_total": 6814.4000000003725
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 76,
+        "search_ms": 37.799999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 57.09999999962747,
+        "search_ms": 37.40000000037253,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.90000000037253,
+        "search_ms": 33.39999999944121,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 71.40000000037253,
+        "search_ms": 34.5,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74.20000000018626,
+        "search_ms": 33.19999999925494,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.5,
+        "search_ms": 33.90000000037253,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.200000000186265,
+        "search_ms": 33.09999999962747,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 57,
+        "search_ms": 34.299999999813735,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.5,
+        "search_ms": 35.09999999962747,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.10000000055879,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 286579688,
+    "model_transfer_resource_count": 49,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 11,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:19:00.136Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2202,
+      "index_build": 8501.899999999441,
+      "vectors_fetch": 7811.9000000003725,
+      "vectors_parse": 515.2999999998137,
+      "cold_start_total": 10703.899999999441
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 80.3999999994412,
+        "search_ms": 34.90000000037253,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 59.09999999962747,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.59999999962747,
+        "search_ms": 35.60000000055879,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 69.8999999994412,
+        "search_ms": 32.80000000074506,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 73.8999999994412,
+        "search_ms": 33.5,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.5,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.799999999813735,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.59999999962747,
+        "search_ms": 33.200000000186265,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.3999999994412,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 51.90000000037253,
+        "search_ms": 33.799999999813735,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 310264735,
+    "model_transfer_resource_count": 53,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 12,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:25:51.438Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 3944.2000000001863,
+      "index_build": 7656.299999999814,
+      "vectors_fetch": 4575.799999999814,
+      "vectors_parse": 1552.7000000001863,
+      "cold_start_total": 11600.5
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 388.30000000074506,
+        "search_ms": 154.59999999962747,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 238.20000000018626,
+        "search_ms": 142.8999999994412,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 237.30000000074506,
+        "search_ms": 104.09999999962747,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 215.20000000018626,
+        "search_ms": 107.8999999994412,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 238,
+        "search_ms": 111.40000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 180.70000000018626,
+        "search_ms": 101.5,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 155.09999999962747,
+        "search_ms": 72.90000000037253,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 87.5,
+        "search_ms": 43.89999999944121,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 213.6000000005588,
+        "search_ms": 33.799999999813735,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 55.09999999962747,
+        "search_ms": 35.40000000037253,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 333949782,
+    "model_transfer_resource_count": 57,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 13,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:26:28.989Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 1547.7999999998137,
+      "index_build": 5005.9000000003725,
+      "vectors_fetch": 4313.4000000003725,
+      "vectors_parse": 514.7000000001863,
+      "cold_start_total": 6553.700000000186
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 82.79999999981374,
+        "search_ms": 36,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 59.200000000186265,
+        "search_ms": 33.299999999813735,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 56.40000000037253,
+        "search_ms": 33.200000000186265,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 71.79999999981374,
+        "search_ms": 34.200000000186265,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 75.79999999981374,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 57.09999999962747,
+        "search_ms": 34.299999999813735,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 55.40000000037253,
+        "search_ms": 33,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 59.40000000037253,
+        "search_ms": 33.200000000186265,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 76.79999999981374,
+        "search_ms": 34.299999999813735,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 54.40000000037253,
+        "search_ms": 33.09999999962747,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 357634829,
+    "model_transfer_resource_count": 61,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 14,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:27:08.219Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2677.0999999996275,
+      "index_build": 5571.9000000003725,
+      "vectors_fetch": 4862.700000000186,
+      "vectors_parse": 534.7000000001863,
+      "cold_start_total": 8249
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 76.90000000037253,
+        "search_ms": 47,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 59.59999999962747,
+        "search_ms": 33.5,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 55,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.5,
+        "search_ms": 33.89999999944121,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74.29999999981374,
+        "search_ms": 33,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.5,
+        "search_ms": 33.80000000074506,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.09999999962747,
+        "search_ms": 32.799999999813735,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.799999999813735,
+        "search_ms": 34,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.20000000018626,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.200000000186265,
+        "search_ms": 34,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 381319876,
+    "model_transfer_resource_count": 65,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 15,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:27:47.012Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2483.5,
+      "index_build": 5283.0999999996275,
+      "vectors_fetch": 4562.899999999441,
+      "vectors_parse": 544.3000000007451,
+      "cold_start_total": 7766.5999999996275
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 89.5,
+        "search_ms": 33.89999999944121,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 58.60000000055879,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.700000000186265,
+        "search_ms": 35.299999999813735,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.90000000037253,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74.6000000005588,
+        "search_ms": 35.299999999813735,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.40000000037253,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 97.90000000037253,
+        "search_ms": 33,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.39999999944121,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.79999999981374,
+        "search_ms": 33,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.200000000186265,
+        "search_ms": 34,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 405004923,
+    "model_transfer_resource_count": 69,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 16,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:28:25.241Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2247.0999999996275,
+      "index_build": 5013.299999999814,
+      "vectors_fetch": 4316.5,
+      "vectors_parse": 521.5999999996275,
+      "cold_start_total": 7260.399999999441
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 76.20000000018626,
+        "search_ms": 33.799999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 58.69999999925494,
+        "search_ms": 32.80000000074506,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.39999999944121,
+        "search_ms": 36.10000000055879,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 73.29999999981374,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74,
+        "search_ms": 33.80000000074506,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.59999999962747,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.59999999962747,
+        "search_ms": 32.799999999813735,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.40000000037253,
+        "search_ms": 33.200000000186265,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.29999999981374,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52,
+        "search_ms": 34.10000000055879,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 428689970,
+    "model_transfer_resource_count": 73,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 17,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:29:03.917Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 2229.600000000559,
+      "index_build": 5476.399999999441,
+      "vectors_fetch": 4774.5,
+      "vectors_parse": 527.5999999996275,
+      "cold_start_total": 7706
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 76.29999999981374,
+        "search_ms": 36.90000000037253,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 57,
+        "search_ms": 33,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 54.90000000037253,
+        "search_ms": 32.799999999813735,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.3999999994412,
+        "search_ms": 35.10000000055879,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74.79999999981374,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 57.09999999962747,
+        "search_ms": 33.90000000037253,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.5,
+        "search_ms": 32.799999999813735,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 57.299999999813735,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.69999999925494,
+        "search_ms": 34.10000000055879,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.299999999813735,
+        "search_ms": 32.799999999813735,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 452375017,
+    "model_transfer_resource_count": 77,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 18,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  },
+  {
+    "timestamp": "2026-08-11T03:29:42.323Z",
+    "mode": "shipped",
+    "corpus_url": "/research/corpus/vectors_10000.json",
+    "corpus_size": 10000,
+    "threads_configured": 4,
+    "threads_actual_reported": 4,
+    "cache_state": "warm",
+    "storage_cleared": null,
+    "timings_ms": {
+      "nav_to_pipeline_start": 0,
+      "model_load": 1856,
+      "index_build": 5582.200000000186,
+      "vectors_fetch": 4884.799999999814,
+      "vectors_parse": 522.2000000001863,
+      "cold_start_total": 7438.200000000186
+    },
+    "query_results": [
+      {
+        "query": "Scissor Lift 26' Electric, 29.0 ft",
+        "embed_ms": 76.09999999962747,
+        "search_ms": 36.299999999813735,
+        "top1_id": "synthetic-0009262",
+        "top1_score": 0.8635473496304729
+      },
+      {
+        "query": "Scissor Lift 16.6 ft",
+        "embed_ms": 57.200000000186265,
+        "search_ms": 33.200000000186265,
+        "top1_id": "synthetic-0001009",
+        "top1_score": 0.8608051695998767
+      },
+      {
+        "query": "Cherry Picker 49.2 ft",
+        "embed_ms": 52.90000000037253,
+        "search_ms": 34.59999999962747,
+        "top1_id": "synthetic-0001695",
+        "top1_score": 0.7935850140438107
+      },
+      {
+        "query": "way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 70.79999999981374,
+        "search_ms": 34,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5345833850374838
+      },
+      {
+        "query": "need way to safely get a worker up high indoors or outdoors",
+        "embed_ms": 74.5,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005831",
+        "top1_score": 0.5525079641734453
+      },
+      {
+        "query": "aerial equipment under $432 a day",
+        "embed_ms": 56.60000000055879,
+        "search_ms": 34,
+        "top1_id": "synthetic-0005503",
+        "top1_score": 0.3693053670699157
+      },
+      {
+        "query": "aerial equipment available in Panmure",
+        "embed_ms": 52.40000000037253,
+        "search_ms": 32.89999999944121,
+        "top1_id": "synthetic-0003241",
+        "top1_score": 0.3402747546756422
+      },
+      {
+        "query": "need to get up high for a bit",
+        "embed_ms": 56.799999999813735,
+        "search_ms": 33.39999999944121,
+        "top1_id": "synthetic-0007170",
+        "top1_score": 0.2447113439942119
+      },
+      {
+        "query": "need to get up high for a bit, any ideas?",
+        "embed_ms": 74.70000000018626,
+        "search_ms": 33.90000000037253,
+        "top1_id": "synthetic-0003100",
+        "top1_score": 0.20629144682105352
+      },
+      {
+        "query": "Air Compressor Diesel, 111 CFM",
+        "embed_ms": 52.799999999813735,
+        "search_ms": 32.90000000037253,
+        "top1_id": "synthetic-0005840",
+        "top1_score": 0.8163390790351535
+      }
+    ],
+    "peak_js_heap_bytes": 148000000,
+    "wasm_heap_bytes": null,
+    "model_transfer_bytes": 476060064,
+    "model_transfer_resource_count": 81,
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hardware_concurrency": 8,
+    "repeat_index": 19,
+    "is_warmup": false,
+    "run_mode": "manual",
+    "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "device_hardware_concurrency": 8,
+    "device_memory_gb": null,
+    "browser": "Redmi",
+    "device_label": "Redmi",
+    "cell": {
+      "corpus_size": 10000,
+      "threads": 4,
+      "cache_state": "warm",
+      "mode": "shipped"
+    },
+    "cache_isolation": "warm",
+    "network_profile": null,
+    "excluded": true,
+    "exclusion_reason": "concurrent desktop benchmark (3 engines) was running on the same machine serving this device: CPU and HTTP server contention. model_load p50 2032ms vs ~1650ms in uncontended runs on the same device."
+  }
+]

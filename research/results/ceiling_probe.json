@@ -1,0 +1,48 @@
+{
+  "generated": "2026-08-10T15:46:17.619Z",
+  "largest_working": 61000,
+  "smallest_failing": 67000,
+  "tolerance": 10000,
+  "note": "Ceiling lies between largest_working and smallest_failing.",
+  "probes": [
+    {
+      "size": 10000,
+      "bytes": 80812659,
+      "ok": true,
+      "count": 10000,
+      "chars": 80812659
+    },
+    {
+      "size": 100000,
+      "bytes": 808123026,
+      "ok": false,
+      "error": "SyntaxError: Unexpected end of JSON input"
+    },
+    {
+      "size": 55000,
+      "bytes": 444466820,
+      "ok": true,
+      "count": 55000,
+      "chars": 444466820
+    },
+    {
+      "size": 78000,
+      "bytes": 630337429,
+      "ok": false,
+      "error": "SyntaxError: Unexpected end of JSON input"
+    },
+    {
+      "size": 67000,
+      "bytes": 541443019,
+      "ok": false,
+      "error": "SyntaxError: Unexpected end of JSON input"
+    },
+    {
+      "size": 61000,
+      "bytes": 492955803,
+      "ok": true,
+      "count": 61000,
+      "chars": 492955803
+    }
+  ]
+}

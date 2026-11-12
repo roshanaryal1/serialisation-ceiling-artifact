@@ -1,0 +1,12 @@
+{
+  "generated": "2026-08-17T08:00:08.781Z",
+  "engine": "firefox",
+  "mode": "single-probe",
+  "probe": {
+    "size": 110000,
+    "bytes": 888936512,
+    "ok": true,
+    "count": 110000,
+    "chars": 888936512
+  }
+}

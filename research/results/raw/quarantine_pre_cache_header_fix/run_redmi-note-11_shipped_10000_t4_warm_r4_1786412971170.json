@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-08-11T01:39:33.494Z",
+  "mode": "shipped",
+  "corpus_url": "/research/corpus/vectors_10000.json",
+  "corpus_size": 10000,
+  "threads_configured": 4,
+  "threads_actual_reported": 4,
+  "cache_state": "warm",
+  "storage_cleared": null,
+  "timings_ms": {
+    "nav_to_pipeline_start": 0.10000000009313226,
+    "model_load": 1615.3000000002794,
+    "index_build": 4369.699999999721,
+    "vectors_fetch": 3653.4000000003725,
+    "vectors_parse": 536.0999999996275,
+    "cold_start_total": 5985.100000000093
+  },
+  "query_results": [
+    {
+      "query": "Scissor Lift 26' Electric, 29.0 ft",
+      "embed_ms": 83.5,
+      "search_ms": 36.89999999990687,
+      "top1_id": "synthetic-0009262",
+      "top1_score": 0.8635473496304729
+    },
+    {
+      "query": "Scissor Lift 16.6 ft",
+      "embed_ms": 58.10000000009313,
+      "search_ms": 32.89999999990687,
+      "top1_id": "synthetic-0001009",
+      "top1_score": 0.8608051695998767
+    },
+    {
+      "query": "Cherry Picker 49.2 ft",
+      "embed_ms": 60.60000000009313,
+      "search_ms": 37,
+      "top1_id": "synthetic-0001695",
+      "top1_score": 0.7935850140438107
+    },
+    {
+      "query": "way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 81.60000000009313,
+      "search_ms": 34.60000000009313,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5345833850374838
+    },
+    {
+      "query": "need way to safely get a worker up high indoors or outdoors",
+      "embed_ms": 76.89999999990687,
+      "search_ms": 33.299999999813735,
+      "top1_id": "synthetic-0005831",
+      "top1_score": 0.5525079641734453
+    },
+    {
+      "query": "aerial equipment under $432 a day",
+      "embed_ms": 58.40000000037253,
+      "search_ms": 34.5,
+      "top1_id": "synthetic-0005503",
+      "top1_score": 0.3693053670699157
+    },
+    {
+      "query": "aerial equipment available in Panmure",
+      "embed_ms": 54.6999999997206,
+      "search_ms": 32.89999999990687,
+      "top1_id": "synthetic-0003241",
+      "top1_score": 0.3402747546756422
+    },
+    {
+      "query": "need to get up high for a bit",
+      "embed_ms": 59.60000000009313,
+      "search_ms": 33.200000000186265,
+      "top1_id": "synthetic-0007170",
+      "top1_score": 0.2447113439942119
+    },
+    {
+      "query": "need to get up high for a bit, any ideas?",
+      "embed_ms": 76.5,
+      "search_ms": 35.1999999997206,
+      "top1_id": "synthetic-0003100",
+      "top1_score": 0.20629144682105352
+    },
+    {
+      "query": "Air Compressor Diesel, 111 CFM",
+      "embed_ms": 53.39999999990687,
+      "search_ms": 32.8000000002794,
+      "top1_id": "synthetic-0005840",
+      "top1_score": 0.8163390790351535
+    }
+  ],
+  "peak_js_heap_bytes": 148000000,
+  "wasm_heap_bytes": null,
+  "model_transfer_bytes": 120784359,
+  "model_transfer_resource_count": 21,
+  "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+  "hardware_concurrency": 8,
+  "repeat_index": 4,
+  "is_warmup": false,
+  "run_mode": "manual",
+  "device_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+  "device_hardware_concurrency": 8,
+  "device_memory_gb": null,
+  "browser": "redmi-note-11",
+  "device_label": "redmi-note-11",
+  "cell": {
+    "corpus_size": 10000,
+    "threads": 4,
+    "cache_state": "warm",
+    "mode": "shipped"
+  },
+  "cache_isolation": "warm",
+  "network_profile": null,
+  "commit_sha": "manual-run"
+}
