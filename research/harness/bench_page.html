@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RentMate retrieval benchmark harness</title>
+</head>
+<body>
+<!--
+Isolated benchmark surface (RESEARCH_PLAN.md Phase 5). Loads the app's own
+retrieval library (@xenova/transformers, same version/model as
+src/services/embeddingService.js) with no UI, no router, no Firebase, and no
+network beyond the model fetch + corpus fetch.
+
+DIVERGENCE FROM THE REAL APP PATH (stated explicitly per Phase 5's own
+instruction, not left implicit):
+  1. The real app ships PRECOMPUTED corpus vectors as a static build
+     artifact (public/embeddings.json, see AUDIT.md) and only embeds the
+     QUERY live. This harness instead embeds the entire corpus in-browser on
+     every cold-start run, to measure "index build" as a first-class cost
+     (RESEARCH_PLAN.md Phase 5's metric table includes it) -- relevant to
+     RQ2's envelope question at corpus sizes too large to ship as a static
+     artifact. This is a deliberate scope expansion beyond what RentMate
+     itself currently does, not a bug.
+  2. The real app's corpus is 237 FAQ/doc chunks (AUDIT.md); this harness
+     loads the Phase 2 synthetic equipment-listing corpora instead
+     (corpus_1000/10000/100000.jsonl), per RESEARCH_PLAN.md's RQ2 design.
+-->
+<!--
+MANUAL-RUN MODE: for devices runner.js can't drive directly -- iOS Safari
+(Playwright has no real-Safari automation, only WebKit approximation; the
+plan's own protocol says "Remote inspection via the Mac" for iPhone, which
+means visual/manual, not scripted) and as a no-adb-setup fallback for
+Android. Open this page's URL directly in the device's own browser
+(http://<mac-lan-ip>:8743/research/harness/bench_page.html -- find the IP
+with `ipconfig getifaddr en0` on the Mac, phone and Mac must be on the same
+WiFi), use the controls below, then export and copy the JSON results back to
+the Mac's research/results/raw/ manually (e.g. via AirDrop, email to self,
+or the Files app).
+-->
+<div id="manual-controls" style="font-family: sans-serif; max-width: 480px;">
+  <h3>Manual benchmark run</h3>
+  <label>Device label (used to separate this device in analysis):
+    <input id="m-device" type="text" value="" placeholder="e.g. redmi-note-11 or iphone-16" style="width:100%"></label><br>
+  <label>Mode: <select id="m-mode">
+    <option value="shipped">shipped vectors (Mode A, what the app does)</option>
+    <option value="build">in-browser index build (Mode B, slow)</option>
+  </select></label><br>
+  <label>Corpus size: <select id="m-size"><option>1000</option><option selected>10000</option><option>100000</option></select></label><br>
+  <label>Cache state: <select id="m-cache"><option value="cold">cold</option><option value="warm">warm</option></select></label><br>
+  <label>Threads: <select id="m-threads"><option>4</option><option>8</option></select></label><br>
+  <label>Repeats (first discarded as warmup): <input id="m-repeats" type="number" value="20" min="2"></label><br>
+  <label>Idle between repeats (seconds): <input id="m-idle" type="number" value="60" min="0"></label><br>
+  <button id="m-run">Run</button>
+  <button id="m-download" disabled>Download results JSON</button>
+  <pre id="m-log" style="white-space: pre-wrap; font-size: 12px; max-height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 8px;"></pre>
+</div>
+<div id="status">not started</div>
+<script type="module" src="./bench_page.js"></script>
+<script type="module" src="./manual_ui.js"></script>
+</body>
+</html>

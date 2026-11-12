@@ -1,0 +1,5 @@
+{
+  "type": "module",
+  "private": true,
+  "description": "Scoped to research/harness/ only, so server.js and runner.js are treated as ESM without touching the app's root package.json."
+}
