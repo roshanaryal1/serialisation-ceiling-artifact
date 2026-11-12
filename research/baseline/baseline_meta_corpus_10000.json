@@ -1,0 +1,17 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "precision": "fp32",
+  "corpus_file": "../corpus/corpus_10000.jsonl",
+  "corpus_size": 10000,
+  "query_count": 250,
+  "corpus_embed_seconds": 13.885822916869074,
+  "corpus_embed_throughput_docs_per_sec": 720.1589750832545,
+  "query_embed_seconds": 0.12867433298379183,
+  "embedding_dims": 384,
+  "hardware": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.14.4"
+  },
+  "top_k": 50
+}
