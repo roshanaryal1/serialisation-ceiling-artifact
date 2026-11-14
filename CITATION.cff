@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper below."
+title: "A Serialisation Ceiling in Browser-Native Semantic Retrieval: research artifact"
+abstract: >-
+  Harness, corpus generator, raw run records and analysis code for the paper
+  "A Serialisation Ceiling in Browser-Native Semantic Retrieval: Mechanism,
+  Prediction, and Remedy".
+type: software
+authors:
+  - family-names: Aryal
+    given-names: Roshan
+    affiliation: "Independent Researcher, Auckland, New Zealand"
+    orcid: "https://orcid.org/0009-0001-4758-4977"
+repository-code: "https://github.com/roshanaryal1/serialisation-ceiling-artifact"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-14"
+keywords:
+  - browser-native-inference
+  - semantic-retrieval
+  - edge-ai
+  - webassembly
+  - serialisation
+preferred-citation:
+  type: conference-paper
+  title: "A Serialisation Ceiling in Browser-Native Semantic Retrieval: Mechanism, Prediction, and Remedy"
+  authors:
+    - family-names: Aryal
+      given-names: Roshan
+      orcid: "https://orcid.org/0009-0001-4758-4977"
+  collection-title: "Proceedings of the 4th International Conference on Smart Sustainable Development (SSD 2026)"
+  publisher:
+    name: "Atlantis Press (Springer Nature)"
+  year: 2026
+  notes: "Accepted; proceedings not yet published."

@@ -1,0 +1,14 @@
+{
+  "title": "A Serialisation Ceiling in Browser-Native Semantic Retrieval: research artifact",
+  "upload_type": "software",
+  "description": "Harness, corpus generator, raw run records and analysis code for the SSD 2026 paper 'A Serialisation Ceiling in Browser-Native Semantic Retrieval: Mechanism, Prediction, and Remedy'.",
+  "creators": [
+    {
+      "name": "Aryal, Roshan",
+      "affiliation": "Independent Researcher, Auckland, New Zealand",
+      "orcid": "0009-0001-4758-4977"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["browser-native inference", "semantic retrieval", "edge AI", "WebAssembly", "serialisation"]
+}

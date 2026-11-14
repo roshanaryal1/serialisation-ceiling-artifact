@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    name: Reproduce headline numbers from committed data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Syntax-check the analysis and harness code
+        run: |
+          python -m py_compile research/analysis/*.py research/harness/*.py
+          for f in research/harness/*.js research/harness/*.mjs; do node --check "$f"; done
+      - name: Section 5.2 fetch-plus-parse medians and bootstrap CIs
+        run: |
+          python research/analysis/serialization_total_ci.py | tee ci.txt
+          grep -q "10000 json         stage-sum p50  200.3 ms" ci.txt
+          grep -q "10000 binary       stage-sum p50   20.7 ms" ci.txt
+      - name: Pre-registered remedy predictions
+        run: |
+          python research/analysis/serialization_remedy_summary.py | tee remedy.txt
+          test "$(grep -c '^  HELD' remedy.txt)" -eq 5
