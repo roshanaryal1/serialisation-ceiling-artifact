@@ -64,8 +64,9 @@ Full re-measurement needs the browser harness:
 ```sh
 npm install                                  # transformers.js and Playwright, pinned
 python3 -m venv research/.venv && research/.venv/bin/pip install -r research/requirements.lock.txt
+research/.venv/bin/pip install "matplotlib>=3.8,<4.0"   # figures only; not in the lockfile
 bash research/analysis/run_all.sh            # regenerate the results tables and figures
-python3 research/analysis/make_design_figure.py   # the study-design figure
+research/.venv/bin/python3 research/analysis/make_design_figure.py   # the study-design figure
 ```
 
 Large artifacts (corpora, vectors, model mirror) are not committed; regenerate
