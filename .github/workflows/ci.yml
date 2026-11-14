@@ -27,8 +27,10 @@ jobs:
       - name: Section 5.2 fetch-plus-parse medians and bootstrap CIs
         run: |
           python research/analysis/serialization_total_ci.py | tee ci.txt
-          grep -q "10000 json         stage-sum p50  200.3 ms" ci.txt
-          grep -q "10000 binary       stage-sum p50   20.7 ms" ci.txt
+          grep -qF "10000 json         stage-sum p50  200.3 ms  CI [196.1, 206.9]" ci.txt
+          grep -qF "10000 binary       stage-sum p50   20.7 ms  CI [19.9, 21.5]" ci.txt
+          grep -qF " 1000 json         stage-sum p50   25.4 ms  CI [23.9, 26.2]" ci.txt
+          grep -qF " 1000 binary       stage-sum p50    3.6 ms  CI [3.3, 3.9]" ci.txt
       - name: Pre-registered remedy predictions
         run: |
           python research/analysis/serialization_remedy_summary.py | tee remedy.txt

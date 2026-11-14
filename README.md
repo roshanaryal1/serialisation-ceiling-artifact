@@ -36,7 +36,7 @@ each research question is answered.*
 |---|---|---|
 | Chromium/V8 boundary (bisection) | 61,000 works, 67,000 fails | `research/results/ceiling_probe.json` |
 | Predicted boundary | 66,434 documents | `research/results/string_limit_probe.json` |
-| Fetch + parse at 10,000 documents (p50, 95% CI) | JSON 200.3 ms [196.1, 206.9]; Float32 binary 20.7 ms [19.9, 21.5] | `research/analysis/serialization_total_ci.py` |
+| Fetch + parse at 10,000 documents | JSON 200.3 ms [196.1, 206.9]; Float32 binary 20.7 ms [19.9, 21.5]. Point values are the sum of per-stage medians, as reported in the paper; brackets are the 95% bootstrap CI of the median per-run total | `research/analysis/serialization_total_ci.py` |
 | Remedy arms at 100,000 documents | monolithic JSON 0/20; sharded JSON 20/20; binary 20/20 | `research/analysis/serialization_remedy_summary.py` |
 | Firefox / WebKit, 110,000-document probe | both parse it, as their higher limits predict | `research/results/ceiling_probe_{firefox,webkit}.json` |
 
@@ -46,8 +46,8 @@ each research question is answered.*
 profile. Transfer of the vectors artifact dominates at 10,000 documents.*
 
 Retrieval quality is deliberately **not** reported: the pre-registered
-relevance-judgement reliability threshold failed (see
-`research/results/RQ1_quality_result.md`).
+relevance-judgement reliability threshold failed (Cohen's kappa 0.512 against
+a 0.70 bar; see `research/queries/ADJUDICATION_OUTCOME.md`).
 
 ## Reproduce
 
@@ -64,7 +64,8 @@ Full re-measurement needs the browser harness:
 ```sh
 npm install                                  # transformers.js and Playwright, pinned
 python3 -m venv research/.venv && research/.venv/bin/pip install -r research/requirements.lock.txt
-bash research/analysis/run_all.sh            # regenerate every table and figure
+bash research/analysis/run_all.sh            # regenerate the results tables and figures
+python3 research/analysis/make_design_figure.py   # the study-design figure
 ```
 
 Large artifacts (corpora, vectors, model mirror) are not committed; regenerate

@@ -1,5 +1,9 @@
 # RQ1: what int8 quantisation costs in retrieval quality
 
+> **Superseded.** The relevance judgments behind this note later failed their
+> pre-registered validation (kappa 0.512 against 0.70), so RQ1 was dropped and
+> no quality result is reported. See `research/queries/ADJUDICATION_OUTCOME.md`.
+
 **PROVISIONAL.** These numbers are scored against `qrels.jsonl`, which is the
 rubric-program first pass. Hand adjudication has not been done, so Cohen's kappa
 is unknown and the judgments are not validated. Do not present any figure here
