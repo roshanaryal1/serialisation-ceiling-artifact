@@ -1,0 +1,13 @@
+The run records, processed results, query sets and figures under research/
+(research/results/, research/queries/, research/baseline/) are licensed under
+the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+You may share and adapt them for any purpose, provided you give appropriate
+credit to: Roshan Aryal, "A Serialisation Ceiling in Browser-Native Semantic
+Retrieval: Mechanism, Prediction, and Remedy" (SSD 2026), and indicate if
+changes were made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Source code in this repository is licensed separately under the MIT licence
+(see LICENSE).
