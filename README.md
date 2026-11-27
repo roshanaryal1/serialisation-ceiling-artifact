@@ -64,15 +64,23 @@ Full re-measurement needs the browser harness:
 ```sh
 npm install                                  # transformers.js and Playwright, pinned
 python3 -m venv research/.venv && research/.venv/bin/pip install -r research/requirements.lock.txt
-research/.venv/bin/pip install "matplotlib>=3.8,<4.0"   # figures only; not in the lockfile
+research/.venv/bin/pip install "matplotlib>=3.8,<4.0" "pillow>=13.0.0"   # figures only; not in the lockfile
 bash research/analysis/run_all.sh            # regenerate the results tables and figures
 research/.venv/bin/python3 research/analysis/make_design_figure.py   # the study-design figure
 ```
 
+The lock needs Python 3.11 or newer. Matplotlib needs Pillow, which the lock
+no longer includes; `pillow>=13.0.0` is the patched release, and naming it
+also upgrades an existing figure environment. The PDF figures embed a
+creation timestamp; set `SOURCE_DATE_EPOCH` to make them byte-reproducible.
+
 Large artifacts (corpora, vectors, model mirror) are not committed; regenerate
 them as described in `research/harness/RUNBOOK.md` and check them against
 `research/PROVENANCE.md`. The main matrix was measured on an Apple M2 MacBook
-Air (8 GB) with Chromium 141, Firefox 142 and WebKit 26.
+Air (8 GB) with Playwright's Chromium 141, Firefox 142 and WebKit 26 builds
+(exact versions in `research/PROVENANCE.md`). The pinned Playwright 1.64.1
+downloads newer builds (Chromium 156), so a fresh install does not recreate
+the measured browsers.
 
 ## Layout
 
