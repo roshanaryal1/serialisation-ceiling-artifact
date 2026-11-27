@@ -5,7 +5,7 @@
 #
 # Exact resolved versions recorded in research/PROVENANCE.md after install.
 sentence-transformers>=5.6.0,<6.0
-transformers>=5.10.0,<6.0  # floor clears GHSA-x9r9-c232-4q39 and older advisories
+transformers>=5.10.4,<6.0  # clears every transformers advisory; 5.10.0 is yanked
 torch>=2.2,<3.0
 numpy>=1.26,<2.0
 scikit-learn>=1.4,<2.0
