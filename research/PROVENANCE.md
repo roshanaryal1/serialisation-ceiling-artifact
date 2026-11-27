@@ -120,6 +120,12 @@ the V8 string-length ceiling does.
 
 - Python (Phase 4 baseline): `research/requirements.txt` (loose bounds) + `research/requirements.lock.txt` (exact, via `pip freeze`), installed into `research/.venv` (gitignored, not committed — lockfile is the citable record). Installed 2026-08-10.
   - Key exact versions: `sentence-transformers==3.4.1`, `torch==2.13.0`, `transformers==4.57.6`, `numpy==1.26.4`, `scikit-learn==1.9.0`, `rank-bm25==0.2.2`, `scipy==1.17.1`.
+  - These are the versions the published baseline was built with, and they stay
+    reproducible from tag `v1.0.0`. On 2026-11-27 the lock on `main` moved to
+    `sentence-transformers==5.6.0` and `transformers==5.10.0` (security advisories);
+    torch, numpy, scikit-learn, rank-bm25 and scipy are unchanged. Checked then:
+    `all-MiniLM-L6-v2` embeddings from both versions are bit-identical (max abs
+    difference 0.0) and token ids match, so the baseline is unaffected.
   - Python (venv): whatever `python3 -m venv` resolved to on this machine — `NOT MEASURED` exact patch version, record via `research/.venv/bin/python3 --version` before Phase 4 baseline runs.
 - ~~JS harness (Phase 5): not yet created~~ — **superseded 2026-08-10**: `research/harness/` is built and its unattended-run gate is met. Dependencies are the repo's own `node_modules` (`@xenova/transformers` 2.17.2, `onnxruntime-web` 1.14.0, both pinned in the root `package-lock.json`) plus Playwright, driving Chromium 141.0.7390.37 (Playwright build v1194). See `harness/PHASE5_STATUS.md`.
 
